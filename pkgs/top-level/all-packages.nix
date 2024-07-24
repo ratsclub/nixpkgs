@@ -25550,6 +25550,8 @@ with pkgs;
     ruby = ruby_3_2;
   };
 
+  mataroa = callPackage ../servers/mataroa { };
+
   gotosocial = callPackage ../servers/gotosocial { };
 
   materialize = callPackage ../servers/sql/materialize {
